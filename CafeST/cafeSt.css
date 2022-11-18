@@ -9,7 +9,7 @@ a{
     cursor:grab;
 }
 nav{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 nav span{
     border: solid rgb(255, 255, 255) 2px;
@@ -37,7 +37,18 @@ section{
     width: 300px;
     float: right;
 }
-
+#art1{
+    margin-top: 50px;
+}
+#art1 p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#art1 p, #art2 li{
+    color: rgb(42, 113, 42);
+}
 table, td{
     text-align: justify;
     border: 1px solid black;
@@ -81,23 +92,24 @@ table, td{
 #header2 p{
     font-size: 20px;
 }
-#art1 p, #art2 li{
-    color: rgb(42, 113, 42);
-}
+
 #art2{
     border-top: solid black 1px;
 }
-#art1 p{
-    text-align: justify;
-}
+
 #art3 img{
     width: 75px;
     margin-bottom: -25px;
+}
+#art3 p:first-child{
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 #art2 > ol > #liRed{
     color: red;
     font-weight: bold;
 }
+
 ol{
     list-style-type: upper-alpha;
 }
@@ -117,6 +129,12 @@ footer{
     color: white;
     background-image: linear-gradient(#48371c, #231709);
     border: #231709 solid 2px;
+}
+#coluna{
+    column-count: 3;
+}
+#imgCafe{
+    padding: none;
 }
 /* *{
     box-sizing: border-box; ajusta o width, descontando tudo que tiver, sendo padding ou margin.
